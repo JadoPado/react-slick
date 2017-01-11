@@ -5,7 +5,7 @@
   "main": "./lib",
   "scripts": {
     "start": "gulp server",
-    "preinstall": "babel ./src --out-dir ./lib && gulp dist && echo TEST",
+    "install": "babel ./src --out-dir ./lib && gulp dist && echo TEST",
     "test": "jest",
     "dev-test": "jest --watch"
   },
