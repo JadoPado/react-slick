@@ -23,7 +23,7 @@
     "slider",
     "react-component"
   ],
-  "devDependencies": {
+  "dependencies": {
     "autoprefixer-core": "^6.0.1",
     "babel-cli": "^6.16.0",
     "babel-core": "^6.16.0",
@@ -59,8 +59,6 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
     "webpack-dev-server": "^1.16.1"
-  },
-  "dependencies": {
     "classnames": "^2.2.5",
     "json2mq": "^0.2.0",
     "object-assign": "^4.1.0",
