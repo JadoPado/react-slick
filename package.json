@@ -58,7 +58,7 @@
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.1"
+    "webpack-dev-server": "^1.16.1",
     "classnames": "^2.2.5",
     "json2mq": "^0.2.0",
     "object-assign": "^4.1.0",
