@@ -143,8 +143,8 @@ var renderSlides = function (spec) {
 
 };
 
-export var Track = React.createClass({
-  render: function () {
+export class Track extends React.Component {
+  render() {
     var slides = renderSlides.call(this, this.props);
     return (
       <div className='slick-track' style={this.props.trackStyle}>
@@ -152,4 +152,4 @@ export var Track = React.createClass({
       </div>
     );
   }
-});
+}
