@@ -17,8 +17,8 @@ module.exports = {
   },
   module: {
     loaders: [
-      {test: /\.jsx$/, loaders: ['babel'], query: { presets:['react', 'es2015'] }},
-      {test: /\.js$/, loaders: ['babel'],query: { presets:['react', 'es2015'] }, exclude: /node_modules/},
+      {test: /\.jsx$/, loaders: ['babel']},
+      {test: /\.js$/, loaders: ['babel'], exclude: /node_modules/},
       {
         test: /\.scss$/,
         loader: 'style!css!sass?outputStyle=expanded&' + 'includePaths[]=' +
