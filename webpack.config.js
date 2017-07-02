@@ -18,7 +18,7 @@ module.exports = {
   module: {
     loaders: [
       {test: /\.jsx$/, loaders: ['babel'], options: { presets:['react'] }},
-      {test: /\.js$/, loaders: ['babel'], exclude: /node_modules/},
+      {test: /\.js$/, loaders: ['babel'],options: { presets:['react'] }, exclude: /node_modules/},
       {
         test: /\.scss$/,
         loader: 'style!css!sass?outputStyle=expanded&' + 'includePaths[]=' +
